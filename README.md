@@ -1,6 +1,6 @@
 # TIL (Today I Learned)
 
-> 매일 배운 것을 기록합니다. (0개 항목)
+> 매일 배운 것을 기록합니다. (1개 항목)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/Krocean/til)](https://github.com/Krocean/til)
 
@@ -8,8 +8,14 @@
 
 ## Categories
 
+- **[AI / ML](#ai)** (1)
 
 ---
+
+## AI / ML
+<a name="ai"></a>
+
+- [Claude Code 스킬 시스템으로 포트폴리오 자동화 구축하기](ai/claude-code-skill-system.md) — 2026-02-16
 
 ---
 
