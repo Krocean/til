@@ -138,8 +138,8 @@ def main():
     readme_content = generate_readme(categories)
     readme_path = REPO_ROOT / "README.md"
     readme_path.write_text(readme_content, encoding="utf-8")
-    print(f"README.md updated: {total} entries across {len(categories)} categories"
-          .replace("total", str(sum(len(v) for v in categories.values()))))
+    total = sum(len(v) for v in categories.values())
+    print(f"README.md updated: {total} entries across {len(categories)} categories")
 
 
 if __name__ == "__main__":
